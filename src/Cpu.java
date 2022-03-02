@@ -10,6 +10,7 @@ public class Cpu {
         this.core = core;
         this.streams = streams;
     }
+
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
 

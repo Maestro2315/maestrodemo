@@ -1,5 +1,7 @@
 public enum Socket {
-    LGA, PGA, ZIF;
+    LGA(),
+    PGA(),
+    ZIF();
 
     public class Cpu {
         Socket socket;
